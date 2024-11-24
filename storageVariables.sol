@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.26;
+
+ contract Example{
+    uint256 a=100;
+    uint256 b=type(uint256).max;
+
+    bool c= true;
+
+    
+ }
