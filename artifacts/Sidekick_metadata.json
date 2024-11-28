@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"callFunction.sol": "Sidekick"
+			"Sidekick.sol": "Sidekick"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"callFunction.sol": {
-			"keccak256": "0x2f0304af0e7fb54961fc55e0aa4f9ebf2aa18ff3beb44c6182955c3c972f41b0",
+		"Sidekick.sol": {
+			"keccak256": "0x7b830e07722b3dc5ca5da05f0cff9cb2421c8d848641003253a350b9fc9ce7f8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0749db5c228b830513a30f3bd1c88b22a5c4461ac74c43deaa215334d81bc433",
-				"dweb:/ipfs/QmR818op3nmQcC9gXsW71fJu5X8YnXzcfTpCYF6dw3ogTa"
+				"bzz-raw://b43399806114292c9353aa1b6be85df250fd8ee452182fd93b2cf0a45badb5a4",
+				"dweb:/ipfs/QmcMrDYkkDsVafoRa6GfetRBGgjWCvBDq9dP4uTmyk4ZKc"
 			]
 		}
 	},
