@@ -22,6 +22,19 @@
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Approved",
+				"type": "event"
+			},
+			{
 				"inputs": [],
 				"name": "approve",
 				"outputs": [],
@@ -96,11 +109,11 @@
 	},
 	"sources": {
 		"escrow.sol": {
-			"keccak256": "0x7b1018fe51fd79390e05028e1000bddc5330aa912383186730ff6aa542d84cd0",
+			"keccak256": "0x3852dc60a226e58e9e74c3caa796f8f02861f797c8118a5b0373f8aebfa46948",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9f1897ba3761e2968895beaf8071ab1001b9323b539a9892bceeebc7b76fc4ad",
-				"dweb:/ipfs/QmNUz9DgaJWsEpcNFru5G2bfUknmdK4T3yb3rR1y86UX4u"
+				"bzz-raw://6a024602da255b554514fb496e0b6bd50ede0bbdc7b9aba147229055cec9c56f",
+				"dweb:/ipfs/QmZHvs3pE6UQkiR3cPLEWauRsaoCWsp1J7fcFFttW5M439"
 			]
 		}
 	},
