@@ -2,14 +2,18 @@
 pragma solidity 0.8.20;
 
 contract Escrow {
-  address public depositor;
-  address public beneficiary;
-  address public arbiter;
+	address public arbiter;
+	address public beneficiary;
+	address public depositor;
 
- constructor(address _arbiter,address _beneficiary) payable{
-   arbiter=_arbiter;
-     beneficiary=_beneficiary;
-     depositor=msg.sender;
-
- } 
+	constructor(address _arbiter, address _beneficiary) payable {
+		arbiter = _arbiter;
+		beneficiary = _beneficiary;
+		depositor = msg.sender;
+	}
+//function to send all the funds to the beneficiary address
+	function approve() external {
+		(bool success, ) = beneficiary.call{ value: address(this).balance }("");
+		require(success);
+	}
 }

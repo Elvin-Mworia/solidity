@@ -23,6 +23,13 @@
 			},
 			{
 				"inputs": [],
+				"name": "approve",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "arbiter",
 				"outputs": [
 					{
@@ -89,11 +96,11 @@
 	},
 	"sources": {
 		"escrow.sol": {
-			"keccak256": "0x5a617c79b3520f503d70ac85dc3a207f307c1d96338750ff94f955e45c0629fc",
+			"keccak256": "0x18895583e8103dd15a26b12c122c3ac5ab6ed47bca3fccd85e4433fab25d0bb5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://22b3f61b1caa4a00f66b900509898b531ab36105a874278a5e9bb734f26d76a2",
-				"dweb:/ipfs/QmcaCoEQtios6fpcjvxKLBtHqG2x4tkq7YrU3ErSKL14FU"
+				"bzz-raw://02e03c65a8813736db45746bbb579ecc990da9aa85fd790c1e42a1e04d34a700",
+				"dweb:/ipfs/Qme3G48ZBi5wu7L3fSSBaz73J87LncmvxABiRv2T9ihVBn"
 			]
 		}
 	},
