@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "alert",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "alerted",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Hero.sol": "Hero"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Hero.sol": {
+			"keccak256": "0x850ad755bd2cec4fcc8e13392f870cb317ba56da016d498583b46d92581eb567",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9accb3b306f8c1b5a9403af34d8cb45f9ab0d5db441b4213f644cebdd3f3ef1c",
+				"dweb:/ipfs/QmTBETDMarDrZ9HAtrt4bbeRZUBDNzLdYiq7JeyYi9r8f7"
+			]
+		}
+	},
+	"version": 1
+}

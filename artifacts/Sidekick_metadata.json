@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "hero",
+						"type": "address"
+					}
+				],
+				"name": "sendAlert",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"callFunction.sol": "Sidekick"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"callFunction.sol": {
+			"keccak256": "0x2f0304af0e7fb54961fc55e0aa4f9ebf2aa18ff3beb44c6182955c3c972f41b0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0749db5c228b830513a30f3bd1c88b22a5c4461ac74c43deaa215334d81bc433",
+				"dweb:/ipfs/QmR818op3nmQcC9gXsW71fJu5X8YnXzcfTpCYF6dw3ogTa"
+			]
+		}
+	},
+	"version": 1
+}
