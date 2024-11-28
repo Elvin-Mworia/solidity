@@ -13,6 +13,9 @@ contract Escrow {
 	}
 //function to send all the funds to the beneficiary address
 	function approve() external {
+        if(msg.sender!=arbiter){
+			revert("only the arbiter should call the approve function");
+		}
 		(bool success, ) = beneficiary.call{ value: address(this).balance }("");
 		require(success);
 	}
